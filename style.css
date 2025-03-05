@@ -1,0 +1,24 @@
+.half {
+    display: flex;
+    flex: 0 0 60%;
+    height: 100vh;
+    align-content: center;
+}
+
+.leaf {
+    width: 575px;
+    height: 100vh;
+}
+
+.user-input {
+    padding: 10px 40px;
+
+}
+
+h2 {
+    padding: 40px 40px;
+}
+
+.last-name {
+    padding: ;
+}
