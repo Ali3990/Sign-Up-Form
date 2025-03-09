@@ -1,13 +1,15 @@
+
+/* splits the left and right in half*/
 .half {
     display: flex;
     flex: 0 0 60%;
-    height: 100vh;
+    height: 100%;
     align-content: center;
 }
 
-.leaf {
+.leaf-img{
     width: 575px;
-    height: 100vh;
+    height: auto;
 }
 
 .user-input {
@@ -19,9 +21,23 @@ h2 {
     padding: 40px 40px;
 }
 
+/* fieldet - stack the boxes and make them uniform */
+.inputs-left, .inputs-right {
+    width: 150px;
+}
+
+/* fieldset - side by side, 3 inputs on each side */
+.user-input {
+    display: flex;
+}
 
 
 /*left hand side styling*/
+
+.bg-img {
+    position: relative;
+    height: 100%;
+}
 
 /* for the text inside the overlay container*/
 .text {
@@ -31,6 +47,9 @@ h2 {
     width: 100%;
     opacity: 0.5;
     font-size: 20px;
-    padding: 15px 0px; /*when just 2 parameters, it's top/bottom, then left/right*/
+    padding: 70px 0px; /*when just 2 parameters, it's top/bottom, then left/right*/
     text-align: center;
+    position: relative;
+    /* top: 20%; */
+    transform: translate(0%, -400%)
 }

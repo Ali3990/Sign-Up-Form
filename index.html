@@ -12,7 +12,10 @@
         <div class="split left">
             <div class="bg-image">
                 <img class="leaf-img" src="Images/photo-1585202900225-6d3ac20a6962.avif" alt="unsplash">
-                <div class="overlay"><div class="text">ODIN</div></div>
+                <div class="overlay">
+                    <img class="odin-img" src="Images/odin-lined.png">
+                    <div class="text">ODIN</div>
+                </div>
             </div>
         </div>
     
@@ -24,16 +27,49 @@
             <div>
                 <fieldset class="user-input">
                     <legend><strong>Let's do this!</strong></legend>
-                    <div class="name-info">
+
+                    <div class="inputs-left"> 
+                        <div class="fname"> 
+                            <label for="first-name">FIRST NAME</label>
+                            <input id="first-name" type="text" name="first-name" placeholder="Thor" required/>
+                        </div>
+                        <div class="email">
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="email" name="email" placeholder="TOdinson@example.com" required/>
+                        </div>
+                        <div class="pass">
+                            <label for="pwd">PASSWORD</label>
+                            <input id="pwd" type="password" name="password" required/>
+                        </div>
+                    </div>
+
+                    <div class="inputs-right">
+                        <div class="lname">
+                            <label for="last-name">LAST NAME</label>
+                            <input id="first-name" type="text" name="first-name" placeholder="Odinson" required/>
+                        </div>
+                        <div class="phone-num">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input id="phone" type="tel" name="phone number" placeholder="(123) 456-789" required/>
+                        </div>
+                        <div class="cpass">
+                            <label for="cpwd">CONFIRM PASSWORD</label>
+                            <input id="cpwd" type="password" name="cpassword" required/>
+                        </div>
+
+                    </div>
+
+
+                    <!-- <div class="name-info">
                         <label for="first-name">FIRST NAME</label>
-                        <input id="first-name" type="text" name="first-name" placeholder="Jane" required/>
+                        <input id="first-name" type="text" name="first-name" placeholder="Thor" required/>
 
                         <label for="last-name">LAST NAME</label>
-                        <input id="first-name" type="text" name="first-name" placeholder="Doe" required/>
+                        <input id="first-name" type="text" name="first-name" placeholder="Odinson" required/>
                     </div>
                     <div class="contact-info">
                         <label for="email">EMAIL</label>
-                        <input id="email" type="email" name="email" placeholder="JDoe@example.com" required/>
+                        <input id="email" type="email" name="email" placeholder="TOdinson@example.com" required/>
 
                         <label for="phone">PHONE NUMBER</label>
                         <input id="phone" type="tel" name="phone number" placeholder="(123) 456-789" required/>
@@ -44,7 +80,7 @@
 
                         <label for="cpwd">CONFIRM PASSWORD</label>
                         <input id="cpwd" type="password" name="cpassword" required/>
-                    </div>
+                    </div> -->
                 </fieldset>
             </div>
         </div>
